@@ -19,5 +19,7 @@ public class Main {
         Car car = new Car();
         car.viewCar();
 
+        System.out.println("aaaa");
+
     }
 }
