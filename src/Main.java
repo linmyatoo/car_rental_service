@@ -32,6 +32,7 @@ public class Main {
         car.viewCar();
 
         System.out.println("aaaa");
+        System.out.println("aaa");
 
     }
 }
