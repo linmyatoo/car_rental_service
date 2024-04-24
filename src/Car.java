@@ -1,10 +1,11 @@
+import java.util.ArrayList;
 public class Car {
     private String carModel;
     private int year;
     private String carColor;
     private double carPricePerDay;
 
-    public void Car(String carModel, int year, String carColor, double carPricePerDay){
+    public Car(String carModel, int year, String carColor, double carPricePerDay){
         this.carPricePerDay = carPricePerDay;
         this.carModel = carModel;
         this.carColor = carColor;
@@ -44,15 +45,17 @@ public class Car {
     }
 
     public void viewCar(){
-       String[] carName = {"Ford_Everest", "Mitsubishi_Outlander", "Chevrolet_Malibu", "BMW_XM"};
-       int[] year = {2023, 2023, 2023, 2023};
-       String[] color = {"Black", "White", "Black", "Marina Bay Blue"};
-       double[] pricePerDay = {2200, 2000, 2000, 3000};
+        System.out.println("Car Details:");
+        System.out.println("Model: " + carModel);
+        System.out.println("Color: " + carColor);
+        System.out.println("Year: " + year);
+        System.out.println("Price Per Day: " + carPricePerDay + " Baht");
+    }
 
-       for(int i = 0; i < 4; i++){
-           System.out.println(carName[i] + " " + color[i] + " " + year[i] + " " + pricePerDay[i]);
-       }
-
+    public String cars(){
+        ArrayList<String> car = new ArrayList<>();
+        car.add(carModel);
+        return carModel;
     }
 }
 
