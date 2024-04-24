@@ -4,10 +4,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("1:Rent a car");
-        System.out.println("2:Return a car");
-        //username input
+        Car car = new Car();
         Scanner SignIn = new Scanner(System.in);
+        System.out.println("1:Rent a car");
+        System.out.println("2:Retrun a car");
+        int choose = SignIn.nextInt();
+
+        switch(choose){
+            case 1:
+                car.viewCar();
+                break;
+            case 2:
+                System.out.println("retrun");
+                break;
+        }
+        //username input
         System.out.println("Enter UserName");
         String username = SignIn.nextLine();
 
@@ -18,7 +29,6 @@ public class Main {
         System.out.println(username+password);
 
         //call view car
-        Car car = new Car();
         car.viewCar();
 
         System.out.println("aaaa");
