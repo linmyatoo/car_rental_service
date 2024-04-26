@@ -16,8 +16,9 @@ public class CarRentConfirmation {
                     System.out.println("Transfer money to this Qr code!!!");
                     break;
                 case 3:
-                    System.out.println("Fill your Name");
-                    keyboard.nextLine();
+                    System.out.println("Fill your Name On Card");
+                    Scanner scn = new Scanner(System.in);
+                    scn.nextLine();
                     System.out.println("Fill your card number");
                     keyboard.nextInt();
                     System.out.println("Payment successful!!!");
