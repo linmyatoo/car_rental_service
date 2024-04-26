@@ -1,4 +1,8 @@
 import java.util.ArrayList;
+<<<<<<< HEAD
+=======
+import java.util.Scanner;
+>>>>>>> mhkaungpyae
 public class Car {
     private String carModel;
     private int year;
