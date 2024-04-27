@@ -4,8 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d826907-7d8e-4be3-836e-9a19f902475c" name="Changes" comment="add a">
-      <change beforePath="$PROJECT_DIR$/out/production/car_rental_service/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car_rental_service/Main.class" afterDir="false" />
+    <list default="true" id="4d826907-7d8e-4be3-836e-9a19f902475c" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_rental_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/CarRentalComfirmation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/OffRoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/RentalCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/Sedan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/SportType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/car_rental_service/Suv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarRentalComfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OffRoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentalCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SportType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Suv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +64,25 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "linmyatoo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/linmyatoo/Desktop/car_rental_service"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="car_rental_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="car_rental_service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713975575616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <option name="closed" value="true" />
+      <created>1714224906563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714224906563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <MESSAGE value="add a" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
