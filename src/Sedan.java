@@ -1,14 +1,12 @@
 public class Sedan extends Car{
-    public Sedan(){
-        super("Chevrolet_Malibu", 2023,"Black", 2000);
+
+    public Sedan(Car car){
+        super(car.getCarModel(),car.getYear(),car.getCarColor(),car.getCarPricePerDay());
+
     }
 
-    public void viewcar(){
+    public void viewCar(){
         super.viewCar();
     }
 
-    public String cars(){
-        super.cars();
-        return super.getCarModel();
-    }
 }

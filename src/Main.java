@@ -1,7 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -11,6 +10,11 @@ public class Main {
 
         CarRentConfirmation rcf = new CarRentConfirmation();
         rcf.confirm();
+>>>>>>> mhkaungpyae
+=======
+//
+        RentalCar car = new RentalCar();
+        car.carChoice();
 >>>>>>> mhkaungpyae
     }
 }
