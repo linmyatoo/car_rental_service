@@ -1,12 +1,12 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 public class Car {
     private String carModel;
     private int year;
+    private int id;
     private String carColor;
     private double carPricePerDay;
 
     public Car(String carModel, int year, String carColor, double carPricePerDay){
+
         this.carPricePerDay = carPricePerDay;
         this.carModel = carModel;
         this.carColor = carColor;
@@ -52,11 +52,4 @@ public class Car {
         System.out.println("Year: " + year);
         System.out.println("Price Per Day: " + carPricePerDay + " Baht");
     }
-
-    public String cars(){
-        ArrayList<String> car = new ArrayList<>();
-        car.add(carModel);
-        return carModel;
-    }
 }
-
