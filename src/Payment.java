@@ -16,31 +16,30 @@ public class Payment {
         return insurance;
     }
 
-    public void paymentAmountSUV(){
-        Car car = new Suv();
+    public void paymentAmount(Car car){
         double price = car.getCarPricePerDay();
-        paymentAmount = (dayCount*price) + insurance;
+        paymentAmount = (dayCount * price) + insurance;
         System.out.println("Your total amount will be " + paymentAmount);
     }
 
-    public void paymentAmountSportType(){
-        Car car = new SportType();
-        double price = car.getCarPricePerDay();
-        paymentAmount = (dayCount*price) + insurance;
-        System.out.println("Your total amount will be " + paymentAmount);
+    public void processPaymentSUV(){
+        Car suv = new Suv();
+        paymentAmount(suv);
     }
 
-    public void paymentAmountOffRoad(){
-        Car car = new OffRoad();
-        double price = car.getCarPricePerDay();
-        paymentAmount = (dayCount*price) + insurance;
-        System.out.println("Your total amount will be " + paymentAmount);
+    public void processPaymentSportType(){
+        Car sportType = new SportType();
+        paymentAmount(sportType);
     }
 
-    public void paymentAmountSedan(){
-        Car car = new Sedan();
-        double price = car.getCarPricePerDay();
-        paymentAmount = (dayCount*price) + insurance;
-        System.out.println("Your total amount will be " + paymentAmount);
+    public void processPaymentSedan(){
+        Car sedan = new Sedan();
+        paymentAmount(sedan);
     }
+
+    public void processPaymentOffRoad(){
+        Car offRoad = new OffRoad();
+        paymentAmount(offRoad);
+    }
+
 }

@@ -3,9 +3,6 @@
 public class Main {
     public static void main(String[] args) {
         RentalCar rc = new RentalCar();
-        rc.carPayment();
-
-        CarRentConfirmation rcf = new CarRentConfirmation();
-        rcf.confirm();
+        rc.carChoice();
     }
 }

@@ -13,7 +13,8 @@ public class CarRentConfirmation {
                     System.out.println("Your confirmation is completed!!! \nYou can pay when you take it");
                     break;
                 case 2:
-                    System.out.println("Transfer money to this Qr code!!!");
+                    System.out.println("Transfer money to this number");
+                    System.out.println(746389299);
                     break;
                 case 3:
                     System.out.println("Fill your Name On Card");
@@ -27,7 +28,7 @@ public class CarRentConfirmation {
         }
         else {
                 RentalCar rc = new RentalCar();
-                rc.carPayment();
+                rc.carChoice();
         }
     }
 }
